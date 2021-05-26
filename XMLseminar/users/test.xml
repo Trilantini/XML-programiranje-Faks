@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<user>
+    <name>test</name>
+    <email>test@gmail.com</email>
+    <password>250cf8b51c773f3f8dc8b4be867a9a02</password>
+</user>
+<!--
+        Sve lozinke su šifrirane pomoću md5 algoritma kao i ovaj gornji.
+        Ako želite pristupiti u račun "test", upišite 123 pod input password
+-->
