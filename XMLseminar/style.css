@@ -1,0 +1,328 @@
+/* Style for all sites */
+
+body {
+  color: rgb(245, 240, 233);
+  background: rgb(52, 57, 58);
+}
+input,
+br {
+  -webkit-user-select: none;
+  user-select: none;
+}
+.div-center {
+  width: 400px;
+  height: 400px;
+  background-color: rgb(34, 36, 37);
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  max-width: 100%;
+  max-height: 100%;
+  overflow: auto;
+  padding: 16px 32px;
+  border-bottom: 2px solid rgb(34, 36, 37);
+  display: table;
+}
+
+.div-center .content {
+  display: table-cell;
+  vertical-align: middle;
+}
+p.error {
+  color: red;
+}
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  background-color: rgb(34, 36, 37);
+  border-color: rgb(71, 71, 71);
+  color: #ccc;
+}
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus {
+  background-color: rgb(34, 36, 37);
+  -webkit-box-shadow: 1px 0px 5px 1px rgb(71, 71, 71);
+  -moz-box-shadow: 1px 0px 5px 1px rgb(71, 71, 71);
+  box-shadow: 1px 0px 5px 1px rgb(71, 71, 71);
+  border-color: rgb(71, 71, 71);
+  color: #ccc;
+}
+label[for="InputPassword"] {
+  margin-top: 5px;
+}
+
+/* Style for login.php */
+
+button[type="submit"].login {
+  margin-top: 20px;
+  width: 100%;
+  max-width: 200px;
+  border-radius: 20px;
+  position: relative;
+  left: 20%;
+}
+button[type="submit"].login:hover,
+button[type="submit"].login:active,
+button[type="submit"].login:focus {
+  -webkit-box-shadow: 0px 0px 0px 0px black;
+  -moz-box-shadow: 0px 0px 0px 0px black;
+  box-shadow: 0px 0px 0px 0px black;
+}
+.forgot {
+  margin-top: 10px;
+  text-align: right;
+}
+
+.forgot a {
+  transition: 0.3s;
+}
+.forgot a:hover,
+.forgot a:active,
+.forgot a:focus {
+  color: crimson;
+  text-decoration: none;
+}
+
+p.signup {
+  margin-top: 10px;
+  text-align: center;
+  color: #9c9c9c;
+}
+.signup {
+  margin-top: 5px;
+  width: 26%;
+  position: relative;
+  left: 37%;
+}
+.signup a {
+  margin-left: 13px;
+  transition: 0.3s;
+}
+.signup a:hover,
+.signup a:active,
+.signup a:focus {
+  text-decoration: none;
+  color: crimson;
+}
+
+/* register.php style */
+
+button[type="button"].goback {
+  float: right;
+}
+
+button[type="button"].goback a {
+  color: white;
+  text-decoration: none;
+  transition: 0.3s;
+}
+button[type="button"].goback a:hover {
+  color: white;
+  text-decoration: none;
+}
+button[type="reset"].resbut {
+  margin-left: 10px;
+}
+.down {
+  margin-bottom: 10px;
+}
+
+/* Forgot.php style */
+
+button[type="button"].goback2 {
+  margin-top: 20px;
+  width: 100%;
+  max-width: 200px;
+  border-radius: 20px;
+  position: relative;
+  left: 20%;
+}
+button[type="button"].goback2 a {
+  color: white;
+  text-decoration: none;
+  transition: 0.3s;
+}
+button[type="button"].goback2 a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+/* Index.php style */
+
+.title {
+  width: 100%;
+  max-width: 300px;
+  margin: 0 auto;
+  text-align: center;
+}
+.welcomeUser p {
+  margin-top: 20px;
+
+  font-size: 20px;
+}
+button[type="submit"] a {
+  text-decoration: none;
+  color: white;
+}
+button[type="submit"] a:hover,
+button[type="submit"] a:active {
+  text-decoration: none;
+  color: white;
+}
+button[type="submit"].create,
+button[type="submit"].btn-danger,
+button[type="submit"].btn-success {
+  margin-top: 50px;
+  margin-left: 30px;
+}
+.results {
+  padding-top: 30px;
+  margin: 0 auto;
+  max-width: 100%;
+  width: 1200px;
+}
+.results article {
+  margin-bottom: 50px;
+  word-wrap: break-word;
+  margin-left: 50px;
+  border: 1px solid white;
+  width: 350px;
+  height: 600px;
+  overflow: auto;
+}
+article .tagline {
+  margin-bottom: 2px;
+}
+article .tags {
+  margin-left: 3px;
+  margin-bottom: 3px;
+  font-weight: bold;
+}
+article .short p {
+  margin-left: 3px;
+}
+article .article-headline {
+  margin-top: 5px;
+  text-align: center;
+}
+
+/* createArticle.php style */
+
+.createArticle::-webkit-scrollbar {
+  width: 15px;
+}
+.createArticle::-webkit-scrollbar-track {
+  scrollbar-color: transparent transparent;
+}
+.createArticle::-webkit-scrollbar-thumb {
+  background: rgb(211, 107, 107);
+}
+.createArticle::-webkit-scrollbar-thumb:hover {
+  background: rgb(182, 90, 90);
+}
+.createArticle {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 800px;
+  max-height: 2000px;
+  background-image: url("https://cdn.writermag.com/2016/12/blogs-versus-articles.jpg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.createArticle main {
+  margin: 50px 0px;
+  background-color: rgb(211, 107, 107);
+  max-height: 100%;
+}
+
+.createArticle main h1 {
+  text-align: center;
+  padding-top: 10px;
+}
+.createArticle section {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 600px;
+  font-size: 18px;
+}
+.createArticle #headline {
+  width: 80%;
+}
+.createArticle input[type="text"],
+.createArticle input[type="number"],
+.createArticle input[type="email"] {
+  margin-top: -10px;
+  width: 50%;
+  color: white;
+  background-color: rgb(211, 107, 107);
+  border: 1px solid white;
+  border-style: none none solid none;
+  border-radius: 10px;
+}
+.createArticle input[type="text"]:active,
+.createArticle input[type="number"]:active,
+.createArticle input[type="email"]:active,
+.createArticle input[type="text"]:focus,
+.createArticle input[type="number"]:focus,
+.createArticle input[type="email"]:focus {
+  -webkit-box-shadow: 0px 0px 0px 0px black;
+  -moz-box-shadow: 0px 0px 0px 0px black;
+  box-shadow: 0px 0px 0px 0px black;
+}
+.createArticle input[type="date"] {
+  background-color: rgb(211, 107, 107);
+  color: white;
+}
+.createArticle input[type="date"]:active,
+.createArticle input[type="date"]:focus {
+  -webkit-box-shadow: 0px 0px 0px 0px black;
+  -moz-box-shadow: 0px 0px 0px 0px black;
+  box-shadow: 0px 0px 0px 0px black;
+  border: 1px solid white;
+}
+.createArticle input[type="date"]::-webkit-calendar-picker-indicator {
+  filter: invert(1);
+}
+.createArticle textarea {
+  margin: 5px 0px;
+  color: white;
+  background-color: rgb(211, 107, 107);
+  border: 1px solid white;
+}
+.createArticle textarea:active,
+.createArticle textarea:focus {
+  -webkit-box-shadow: 0px 0px 0px 0px black;
+  -moz-box-shadow: 0px 0px 0px 0px black;
+  box-shadow: 0px 0px 0px 0px black;
+  background-color: rgb(211, 107, 107);
+  color: white;
+  border: 1px solid white;
+}
+.createArticle button[type="submit"] {
+  background-color: rgb(211, 107, 107);
+  border: 1px solid white;
+  color: white;
+  border-radius: 50px;
+  margin-bottom: 50px;
+}
+.createArticle a {
+  text-decoration: none;
+  color: white;
+  border: 1px solid white;
+  border-style: none none solid none;
+}
+.createArticle .cancel {
+  margin-left: 20px;
+  width: 100px;
+}
+
+@media (max-width: 767px) {
+  .createArticle button[type="submit"] {
+    width: 80%;
+  }
+}
