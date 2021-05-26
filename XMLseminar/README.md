@@ -8,6 +8,6 @@
 Ukoliko nemate napravljeni račun prvo onda morate ići na stranicu ( register.php ) tako da na stranici za prijavu ( index.php) možete kliknuti na "SIGN UP" gumb koji se nalazi 
 skroz dolje čime će vas odvesti na stranicu za registraciju.
 
-     - Svaki korisnik ima svoj račun i vidi samo one članke koje napravio
+      - Svaki korisnik ima svoj račun i vidi samo one članke koje napravio
 
 
