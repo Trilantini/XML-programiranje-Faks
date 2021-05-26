@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<article id="3">
+    <headline>E3</headline>
+    <author>test</author>
+    <date>20.05.2021</date>
+    <email>test@gmail.com</email>
+    <keywords>
+        <keyword number="1">e3</keyword>
+        <keyword number="2">june</keyword>
+        <keyword number="3">gaming event</keyword>
+    </keywords>
+    <abstract>ovo je abstract za e3</abstract>
+    <Intro>ovo je intro za e3</Intro>
+    <Main>ovo je main za e3</Main>
+    <Conclusion>ovo je conclusion za e3</Conclusion>
+</article>

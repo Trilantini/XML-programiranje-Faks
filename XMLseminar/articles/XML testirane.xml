@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<article id="1">
+    <headline>XML testirane</headline>
+    <author>test</author>
+    <date>20.05.2021</date>
+    <email>test@gmail.com</email>
+    <keywords>
+        <keyword number="1">prvi keyword</keyword>
+        <keyword number="2">drugi keyword</keyword>
+        <keyword number="3">treci keyword</keyword>
+    </keywords>
+    <abstract>asdasdasdlhjkabsdhjkbasdhvbash</abstract>
+    <Intro>ajsbdabsdhjkvbhjavsdhjv</Intro>
+    <Main>ahjsvdahsvdjhavsd</Main>
+    <Conclusion>asjhldvahsjdvahjsvd</Conclusion>
+</article>
