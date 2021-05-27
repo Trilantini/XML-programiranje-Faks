@@ -2,7 +2,7 @@
   $greske = array();
   if (isset($_POST["registracija"])) {
     $mail = $_POST["mail"];
-    $ime = preg_replace('/[^A-Za-z]/','',$_POST["ime"]);
+    $ime = preg_replace('/[^A-Za-z0-9]/','',$_POST["ime"]);
     $sifra =$_POST["šifra"];
     $potv_sifra = $_POST["potvšifra"];
     if (file_exists('users/'.$ime.'.xml')) {
@@ -78,7 +78,7 @@
                 </div>
                 <div class="form-group">
                   <label for="UnosIme" class="form-label"><b>Username</b></label>
-                  <input name ="ime" type="text" maxlength="10" class="form-control" id="UnosIme" placeholder="Username" required >
+                  <input name ="ime" type="text" maxlength="10" class="form-control" id="UnosIme" onkeypress="return /[0-9a-zA-Z]/.test(event.key);" placeholder="Username" required >
                 </div>              
                 <div class="form-group">
                   <label for="UnosŠifra" class="form-label"><b>Password</b></label>
