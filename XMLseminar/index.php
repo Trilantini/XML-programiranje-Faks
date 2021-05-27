@@ -1,7 +1,7 @@
 <?php
   $error = false;
   if (isset($_POST["Login"])) {
-    $ime = preg_replace('/[^A-Za-z]/','',$_POST["ime"]);
+    $ime = preg_replace('/[^A-Za-z0-9]/','',$_POST["ime"]);
     $šif = md5($_POST["šifra"]);
     if (file_exists('users/'.$ime.'.xml')) {
       $xml = new SimpleXMLElement('users/'.$ime.'.xml',0,true);
